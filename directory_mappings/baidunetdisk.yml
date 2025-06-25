@@ -1,13 +1,13 @@
 # This is the directory mapping file for BaiduNetDisk.
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\baidu\'
-  host:    '.\data\AppData\baidu\'
+  host:    '.\data\AppData\Roaming\baidu\'
   ro:      False
 -
-  sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\BaiduYunGuanjia\'
-  host:    '.\data\AppData\BaiduYunGuanjia\'
+  sandbox: 'C:\Users\WDAGUtilityAccount\AppData\┾\BaiduYunGuanjia\'
+  host:    '.\data\AppData\Roaming\BaiduYunGuanjia\'
   ro:      False
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\BaiduYunKernel\'
-  host:    '.\data\AppData\BaiduYunKernel\'
+  host:    '.\data\AppData\Roaming\BaiduYunKernel\'
   ro:      False

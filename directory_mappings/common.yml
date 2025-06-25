@@ -30,9 +30,15 @@
   ro:      False
 -
   sandbox: 'C:\Users\Public\Public Desktop\'
-  host:    '.\data\User\PublicDesktop'
+  host:    '.\data\Public\PublicDesktop'
   ro:      False
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\Downloads\'
   host:    '.\data\User\Downloads'
   ro:      False
+
+# Windows
+-
+  sandbox: C:\Users\WDAGUtilityAccount\AppData\Roaming\Microsoft\Windows\Start Menu\
+  host: .\data\AppData\Roaming\Microsoft\Windows\Start Menu\
+  ro: False

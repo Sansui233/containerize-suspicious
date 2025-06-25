@@ -1,7 +1,7 @@
 # This is the directory mapping file for Thunder 11.
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\thunder\'
-  host:    '.\data\AppData\thunder\'
+  host:    '.\data\AppData\Roaming\thunder\'
   ro:      False
 -
   sandbox: 'C:\ProgramData\Thunder Network\'

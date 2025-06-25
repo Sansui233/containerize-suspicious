@@ -7,9 +7,9 @@
   ro:      False
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\'
-  host: '.\data\AppData\TencentRoaming\'
+  host: '.\data\AppData\Roaming\Tencent\'
   ro:      False
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Local\Tencent\'
-  host: '.\data\AppData\TencentLocal\'
+  host: '.\data\AppData\Local\Tencent\'
   ro:      False
