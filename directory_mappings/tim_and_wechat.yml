@@ -3,7 +3,7 @@
 # following directories.
 -
   sandbox: 'C:\Program Files (x86)\Common Files\Tencent\'
-  host: '.\data\CommonFiles\Tencent'
+  host: '.\data\Program Files (x86)\Common Files\Tencent'
   ro:      False
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\'

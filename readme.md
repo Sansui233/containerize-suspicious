@@ -6,12 +6,13 @@
 
 ## 使用方法
 
-- 在当前目录下运行`prepare_containerize.rb`准备环境
+- 在系统中安装 [ruby](https://www.ruby-lang.org/)
+- 在当前目录下运行`ruby prepare_containerize.rb`准备环境
 - 点击 `Containerize.wsb`，即可打开沙盒，在其中安装支可持久化的应用程序。
 
 ## 可持久化的应用程序
 
-可持久化的程序目录见 [directory_mappings](./directory_mappings/)。但由于此仓库 fork 时已经算年久失修，最新版目录可能发生了化。可能需要自行修改。
+可持久化的程序目录见 [directory_mappings](./directory_mappings/)。此仓库 fork 时，应用程序数据映射的目录几乎为用户目录。对于安装到管理员权限目录的应用程序，需要自行添加对应的目录映射。
 
 ## 拓展适用App
 

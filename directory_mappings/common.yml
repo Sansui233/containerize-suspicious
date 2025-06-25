@@ -9,7 +9,7 @@
 # User's document folder.
 -
   sandbox: 'C:\Users\WDAGUtilityAccount\Documents\'
-  host: '.\User\Documents\'
+  host: '.\data\User\Documents\'
   ro:      False
 # The application installation path.
 # For the installers that can customize installation path, I recommend them to
