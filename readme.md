@@ -1,23 +1,24 @@
 # Containerize Suspicious
 
 本项目致力于将一些Windows软件进行隔离（虚拟化、容器化），以提供更高的安全性，保护敏感数据。
-目前采用的主要思路是利用Windows Sandbox沙箱机制。但是Windows Sandbox并不支持持久化，因此我
-们需要利用Sandbox的路径映射机制将部分路径映射到Sandbox中以支持持久化。
+
+目前采用的主要思路是利用Windows Sandbox沙箱机制。但是Windows Sandbox并不支持数据持久化，因此我们需要利用 Sandbox 的路径映射机制将部分路径映射到Sandbox中以支持持久化。
 
 ## 使用方法
 
-目前支持Ruby脚本，在当前目录下运行`prepare_containerize.rb`准备环境，之后运行
-`Containerize.wsb`，即可在其中安装需要的应用程序。应用程序的持久化文件会被存储在当前目录下的
-文件夹中。
+- 在当前目录下运行`prepare_containerize.rb`准备环境
+- 点击 `Containerize.wsb`，即可打开沙盒，在其中安装支可持久化的应用程序。
+
+## 可持久化的应用程序
+
+可持久化的程序目录见 [directory_mappings](./directory_mappings/)。但由于此仓库 fork 时已经算年久失修，最新版目录可能发生了化。可能需要自行修改。
 
 ## 拓展适用App
 
-由于个人需求，本项目目前支持的应用程序列表可以参见
-[directory_mappings](./directory_mappings/)目录。如果需要将适用范围拓展到其他应用程序，
-需要额外的步骤，主要是添加目录映射以将应用程序的文件持久化到主机。
+如果需要将适用范围拓展到其他应用程序，需要自己把软件安装需要的目录添加进 [directory_mappings](./directory_mappings/)。
 
-添加目录映射参考步骤：
-*以下步骤是参考步骤，也是本仓库目前各个应用程序目录映射的获取办法*
+*以下是添加目录映射参考步骤，也是本仓库目前各个应用程序目录映射的获取办法*
+
 1. 创建一个空白沙箱，准备好安装程序和文件修改监视器（可用
 [ProcMon](https://learn.microsoft.com/zh-cn/sysinternals/downloads/procmon)/
 [FileActivityWatch](https://www.nirsoft.net/utils/file_activity_watch.html)）。
